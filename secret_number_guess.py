@@ -13,7 +13,7 @@ epsilon=1.0
 
 while True:
     print("Is your secret number",ans,"?")
-    y=input("Enter 'h' to indicate the guess is too high.Enter 'l' to indicate the guess is too low.Enter 'c' to indicate I guessed correctly.")
+    y=input("Enter 'h' to indicate the guess is too high. Enter 'l' to indicate the guess is too low. Enter 'c' to indicate I guessed correctly.")
     
     if y == 'c':
         break
