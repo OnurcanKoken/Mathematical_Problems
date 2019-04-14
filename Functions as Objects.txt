@@ -1,0 +1,14 @@
+funtions are firs class objects:
+-have types
+-can be elements of data structures like lists
+-can appear in expressions
+ as part of an assignment statement
+ as an argument to a funtion!!
+
+particularly useful to use functions as arguments when coupled with lists
+-aka higher order programming
+
+generalization of hops
+python provides a general purpose HOP, map
+simple form - a unary funtion and a collection of suitable arguments
+map(abs, [1, -2, 3, -4])

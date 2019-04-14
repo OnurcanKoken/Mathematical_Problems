@@ -1,0 +1,18 @@
+mutation, aliasing, cloning
+
+alias -> nick name
+point the same information
+
+warm = ['red', 'yellow', 'orange']
+hot = warm
+"""
+here hot is an alias for warm - changing one changes the other!!!
+they are pointing the same object, list
+"""
+
+note that there are two ways to sort:
+sort() mutates the list but does not return anything
+sorted() does not mutate the list, returns the sorted list
+
+nested list -> list of list
+

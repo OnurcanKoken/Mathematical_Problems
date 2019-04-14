@@ -1,0 +1,13 @@
+it can be changed, mutable!!!
+ordered sequence of information, accessible by index
+a list is denoted by square brackets []
+
+a_list = [2, 'a', 4, True]
+
+list elements are indexed 0 to len(list) - 1
+
+lists are python objects
+objects have data, methods, functions
+L.append('Hi') # object_name.do_smt()
+
+https://docs.python.org/2/tutorial/datastructures.html
