@@ -47,15 +47,15 @@ def remove_dups(L1,L2):
 remove_dups(L1,L2)
 print(L1)
 """
-now, after removing 1
-we couldnt removed 2
+now, after removing '1'
+we couldnt removed '2'
 since we mutated the list, the size is changed
-after 1 we checked 3
-and we missed 2
+after '1' we checked '3'
+and we missed '2'
 so to avoid this, we will make a copy
 """
 
-L1.insert(0,1) # insert an element to list by index
+L1.insert(0,1) # insert an element to list by index add '1' as '0'th element
 print(L1)
 def remove_dups(L1,L2):
     L1_copy = L1[:]
@@ -74,6 +74,6 @@ print(clist == dlist) # true
 print(clist is dlist) # false
 print(dlist)
 
-dlist = clist
+dlist = clist # aliasing
 print(clist is dlist) # true
 print(dlist)

@@ -3,6 +3,10 @@
 onurcan koken
 Functions as Objects
 """
+# these for calling a function from different directory
+import sys
+sys.path.append(r"C:\Users\asus\Documents\GitHub\edx_MIT_problems")
+
 from factorial import *
 from fibonacci_rabbit import *
 
@@ -10,7 +14,8 @@ def applyToEach(L,f):
     """
     assumes L is a list, f is a function
     mutates L by replacing each element,
-    e, of L by f(e)"""
+    e, of L by f(e)
+    """
     for i in range(len(L)):
         L[i] = f(L[i])
 

@@ -1,4 +1,4 @@
-funtions are first class objects:
+funtions are firs class objects:
 -have types
 -can be elements of data structures like lists
 -can appear in expressions
